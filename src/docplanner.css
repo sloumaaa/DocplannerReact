@@ -1,0 +1,325 @@
+a:link { 
+    text-decoration:none; 
+  }
+  
+  li{
+  list-style-type:none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 15px;
+  color:#ababab;
+  }
+  
+  /* Header */
+  
+  .flex-container{ 
+  display: flex;
+  justify-content:space-around;
+  margin-left:-150px;
+  }
+  
+  .colorie:hover{
+  color: rgb(0, 179, 155); 
+  }
+  
+  .puces{
+  display: flex;
+  justify-content: space-around;
+  height:120px;
+  width:250px;
+  margin-top:12px;
+  }
+  
+  .colorie a:hover{
+  color:rgb(0, 179, 155); 
+  background-color: #f0f0f0;
+  }
+  
+  .divposition{
+  display: flex;
+  justify-content: center;
+  }
+  
+  ul{
+  margin: 0px;
+  padding: 0px;
+  position:absolute;  
+  }
+    
+  ul li ul{
+  display:none;
+  width:100px;
+  text-align:center;
+  }
+    
+  ul li:hover ul{
+  background-color:white;
+  box-shadow: 0px 3px 3px 3px #747474;
+  display:block;
+  }
+  
+  /* Main */
+  
+.partage {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: rgb(116, 116, 116);
+}
+
+.partageone {
+  width: 480px;
+  margin-left: 178px;
+}
+
+.partagetwo {
+  width: 480px;
+  margin-right: 175px;
+}
+
+  .color-pa{
+  Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 14px;
+  Font-weight:18.2px;
+  color: rgba(255, 255, 255, 0.7)
+  }
+  
+  .color-tit{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 26px;
+  Font-weight: 300px;
+  color: rgb(255, 255, 255);
+  }
+
+  .overimage{
+    position: absolute;
+    margin-left: 250px;
+  }
+  
+  .patient-doctor{
+  display: flex; 
+  margin:50px;
+  justify-content: space-around;
+  margin-left: 180px;
+  margin-right: 180px;
+  }
+  
+  .patient{
+   background-color: #00ccb1; 
+   border-radius: 15px; 
+   position: relative;
+   overflow: hidden;
+   height: 280px;
+   width: 512px;padding: 20px;
+  }
+  
+ .annoula{
+  display: flex;
+ }
+
+  .doctor{
+   background-color: #3d83df;   
+   border-radius: 15px;
+   margin-left: 18px;
+   position: relative;
+   overflow: hidden;
+   height: 280px;
+   width: 512px;padding: 20px;
+  }
+  
+  .image{
+  width: 250px;
+  }
+  
+  /*.card{
+  width: 512px;padding: 20px;
+  }*/
+      
+.symbol {
+  display: flex;
+  width: 974px;
+  margin-left: 179px;
+  margin-bottom: 35px;
+}
+  
+.global-comp {
+  width: 192px;
+  margin-right: 65px;
+  margin-top: -12px;
+}
+
+.global-comp1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 743px;
+  height: 113px;
+}
+
+.global-comp1one {
+  height: 43px;
+  width: 155px;
+}
+
+.global-comp1two {
+  height: 42px;
+  width: 155px;
+  margin-right: 547px;
+  margin-top: -37px;
+}
+  
+  .tittres{
+  width:200px; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 16px;
+  Font-weight: 400px;
+  color: rgb(212, 209, 209);
+  }
+  
+  .tittres:hover{
+  color:#00b39b; 
+  }
+  
+  .world{
+  display: flex;
+  /*background-image:url(docplanner.png);*/
+  background-repeat: no-repeat;
+  background-position:left bottom;
+  background-size: 450px 350px;
+  background-color:#e5faf8;
+  }
+  
+  .titre3{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 400px;
+  color:rgb(0, 179, 155);
+  }
+  
+  .pays-t{
+  width:600px;
+  display:flex;
+  flex-direction: column;
+  margin-right:50px;
+  padding-top:50px;
+  margin-right:30px;
+  margin-left:150px;
+  }
+  
+  .kolpays{
+  display:flex;
+  flex-wrap:wrap;
+  padding-top:20px;
+  }
+  
+  .t-pays{
+  display: flex;
+  flex-direction: column;
+  width:250px;
+  height:250px;
+  margin-right:50px;
+  margin-bottom:20px;
+  background-color: white;
+  padding-top:30px;
+  border-radius:5px;
+  }
+  
+.yasar{
+  margin-top:20px;
+}
+  
+.yasarone {
+  display: flex;
+  justify-content: center;
+}
+
+.yasartwo {
+  padding-left: 50px;
+}
+
+.yasarthree {
+  padding-left: 16px;
+}
+
+.yamin{
+  margin-top:-5px;
+}
+
+.yaminthree{
+  padding-left: 65px;
+}
+
+  .c-l{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  color: rgb(116, 116, 116);
+  }
+  
+  .pluspays{
+  margin-top: 0px;
+  margin-bottom: -75px;
+  margin-left:450px;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+  width:500px;
+  height:300px;
+  flex-wrap: nowrap;
+  }
+  
+  .Pays{
+  display:flex; 
+  flex-wrap:wrap;
+  margin:100px;
+  justify-content: space-around;
+  }
+  
+  .arr-plan{
+  margin: 10px;
+  }
+  
+  .arr-plan:hover{
+  box-shadow: 6px 6px 6px 6px #747474;
+  }
+  
+  .Pay{
+  display:flex;
+  justify-content: space-between;
+  padding-left:10px;
+  padding-right:10px;
+  }
+  
+  .paraa{
+  background-color:#3d83df;
+  color:white;
+  border-radius:5px;
+  width:115px;
+  height:30px;
+  display:flex;
+  align-items: center;
+  padding-left:10px;
+  }
+  
+  /* Footer */
+  
+  .fini{
+  display:flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 12px;
+  Font-weight: 400px;
+  color: rgb(171, 171, 171);
+  }
+  
+  .finitwo{
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  Font-size: 12px;
+  Font-weight: 400px;
+  color: rgb(171, 171, 171);
+  }
+  
+  
+  
